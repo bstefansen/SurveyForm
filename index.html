@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <title>Environmental Survey</title>
+</head>
+<body>
+  <h1 id="title">Environmental Survey</h1>
+  <p id="description">A survey of opinions regarding environmental protection</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name</label><input type="text" name="name" id="name" placeholder="First and Last Name" required>
+    <br><br>
+    <label for="email" id="email-label">Email</label><input type="email" name="emailaddress" id="email" placeholder="Enter your email" required>
+    <br><br>
+    <label for="number" id="number-label">How important is protecting the environment to you? (1 -10) *very important - 10*</label><input type="number" name="number" id="number" placeholder="Enter a number" min="1" max="10">
+    <br><br>
+    <div class="checkbox">
+      <label for="checkbox">Do you implement these activities on your property?</label>
+      <br><br>
+      <input type="checkbox" name="composting" value="Composting">Composting
+      <input type="checkbox" name="gardenign" value="Gardening">Gardening
+      <input type="checkbox" name="RWH" value="Rainwater Harvesting">Rainwater Harvesting
+      <input type="checkbox" name="Beekeeping" value="Beekeeping">Beekeeping
+    </div>
+    <br>
+    <label for="dropdown">Age</label>
+    <select id="dropdown" name="dropdown">
+      <option value="young">0 - 24</option>
+      <option value="adult">25 - 49</option>
+      <option value="aged">50 - 74+</option>
+    </select>
+    <br><br>
+    <div class="radio">
+      <label for="commit">Are you involved in an environmental protection group?</label>
+      <input type="radio" name="commit" value="Yes">Yes
+      <input type="radio" name="commit" value="No">No
+    </div>
+    <br>
+    <textarea id="comments" name="name" rows="5" cols="80" placeholder="Additonal comments"></textarea>
+    <br><br>
+    <button type="submit" name="button" id="submit">Submit</button>
+  </form>
+  <footer>
+    <p>&copy 2019, Blake Stefansen</p>
+  </footer>
+</body>
+</html>
