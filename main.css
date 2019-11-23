@@ -1,5 +1,5 @@
 html {
-  background-color: rgba(0, 100, 100, 0.5);
+  background-color: rgba(0, 100, 100, 0.8);
   font-weight: bold;
   background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fres.cloudinary.com%2Ftwenty20%2Fprivate_images%2Ft_watermark-criss-cross-10%2Fv1458490039000%2Fphotosp%2F162a13d3-8075-4aa0-909e-187492b2e085%2Fstock-photo-nature-background-hd-wallpaper-filter-forest-hdbackground-trees-fall-sunshine-162a13d3-8075-4aa0-909e-187492b2e085.jpg&f=1&nofb=1);
 }
@@ -7,12 +7,12 @@ body {
   background-color: rgba(0, 100, 100, .8);
   margin: 1em;
   padding: 1em;
-  text-shadow: 0px 2px 10px white;
-
+  text-shadow: 3px 3px 3px black;
+  border-radius: 40px;
+  color: white;
 }
 h1 {
   text-align: center;
-  text-shadow: 0px 2px 10px white;
 }
 #description {
   text-align: center;
