@@ -41,6 +41,8 @@ h1 {
 
 #submit {
   width: 100%;
+  background-color: silver;
+  font-weight: bold;
 }
 footer {
   text-align: center;
